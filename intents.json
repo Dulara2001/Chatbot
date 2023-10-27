@@ -1,0 +1,179 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which clothing items do you have?",
+                "What kinds of clothing do you offer?",
+                "What's in your clothing collection?",
+                "What do you sell?"
+            ],
+            "responses": [
+                "We have a diverse collection of clothing items, including stylish dresses, comfortable t-shirts, elegant jackets, trendy jeans, cozy sweaters, chic skirts, fashionable blouses, athletic leggings, classic suits, and versatile accessories."
+            ]
+        },
+        {
+            "tag": "dress",
+            "patterns": ["Tell me about your dresses", "What types of dresses do you offer?", "Give me details about your dress collection"],
+            "responses": [
+                "Our dresses are designed for style and comfort. From casual sundresses to elegant evening gowns, we have a wide range to suit every occasion. Prices start at $30. Check our website for the latest designs and promotions."
+            ]
+        },
+        {
+            "tag": "tshirt",
+            "patterns": ["Tell me about your t-shirts", "What types of t-shirts do you offer?", "Give me details about your t-shirt collection"],
+            "responses": [
+                "Discover our collection of trendy and comfortable t-shirts. From graphic tees to basic essentials, we have options for everyone. Prices start at $15. Explore our website for the latest designs and promotions."
+            ]
+        },
+        {
+            "tag": "jacket",
+            "patterns": ["Tell me about your jackets", "What types of jackets do you offer?", "Give me details about your jacket collection"],
+            "responses": [
+                "Stay stylish and cozy with our range of jackets. From classic leather to trendy denim, we have options for all seasons. Prices start at $50. Visit our website to see the latest styles and promotions."
+            ]
+        },
+        {
+            "tag": "jeans",
+            "patterns": ["Tell me about your jeans", "What types of jeans do you offer?", "Give me details about your jeans collection"],
+            "responses": [
+                "Explore our collection of trendy and comfortable jeans. From skinny to bootcut, we have the perfect fit for you. Prices start at $40. Check our website for the latest denim styles and promotions."
+            ]
+        },
+        {
+            "tag": "sweater",
+            "patterns": ["Tell me about your sweaters", "What types of sweaters do you offer?", "Give me details about your sweater collection"],
+            "responses": [
+                "Stay warm and stylish with our cozy sweaters. From chunky knits to lightweight pullovers, we have options for every taste. Prices start at $35. Visit our website to see the latest sweater styles and promotions."
+            ]
+        },
+        {
+            "tag": "skirt",
+            "patterns": ["Tell me about your skirts", "What types of skirts do you offer?", "Give me details about your skirt collection"],
+            "responses": [
+                "Discover our collection of chic and versatile skirts. From mini to maxi, we have styles for every occasion. Prices start at $25. Explore our website for the latest skirt designs and promotions."
+            ]
+        },
+        {
+            "tag": "blouse",
+            "patterns": ["Tell me about your blouses", "What types of blouses do you offer?", "Give me details about your blouse collection"],
+            "responses": [
+                "Elevate your style with our fashionable blouses. From casual to formal, we have options for every look. Prices start at $30. Check our website for the latest blouse styles and promotions."
+            ]
+        },
+        {
+            "tag": "leggings",
+            "patterns": ["Tell me about your leggings", "What types of leggings do you offer?", "Give me details about your leggings collection"],
+            "responses": [
+                "Experience comfort and style with our athletic leggings. From classic black to vibrant patterns, we have options for every workout. Prices start at $20. Visit our website for the latest leggings styles and promotions."
+            ]
+        },
+        {
+            "tag": "suit",
+            "patterns": ["Tell me about your suits", "What types of suits do you offer?", "Give me details about your suit collection"],
+            "responses": [
+                "Achieve a classic and polished look with our versatile suits. From business attire to formal occasions, we have options for every professional. Prices start at $80. Explore our website for the latest suit styles and promotions."
+            ]
+        },
+        {
+            "tag": "accessory",
+            "patterns": ["Tell me about your accessories", "What types of accessories do you offer?", "Give me details about your accessory collection"],
+            "responses": [
+                "Complete your look with our versatile accessories. From statement jewelry to stylish scarves, we have the perfect finishing touches. Prices start at $10. Check our website for the latest accessory styles and promotions."
+            ]
+        },
+        {
+            "tag": "prices",
+            "patterns": ["How much do your clothing items cost?", "What are the prices of your clothes?"],
+            "responses": [
+                "Our prices vary depending on the item. Dresses start at $30, t-shirts at $15, jackets at $50, jeans at $40, sweaters at $35, skirts at $25, blouses at $30, leggings at $20, suits at $80, and accessories at $10."
+            ]
+        },
+        {
+            "tag": "availability",
+            "patterns": ["Are your clothing items in stock?", "Is this item available right now?","availability"],
+            "responses": [
+                "Yes, the majority of our clothing items are in stock. However, availability may vary, so it's best to check our website or visit our store for real-time updates."
+            ]
+        },
+        {
+            "tag": "promotions",
+            "patterns": ["Do you offer any promotions on clothing?", "Are there any ongoing discounts?","promotions"],
+            "responses": [
+                "Absolutely! We have special promotions on selected clothing items. Check our website or visit our store to discover the latest discounts and offers on stylish outfits."
+            ]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": ["How can I contact customer support for clothing inquiries?", "I need assistance with my clothing order","customer_support"],
+            "responses": [
+                "Our customer support team is here to assist you with any clothing-related queries. Feel free to reach out through our website's live chat, email, or phone. We're ready to help you with your fashion needs!"
+            ]
+        },
+        {
+            "tag": "recommendation",
+            "patterns": ["What clothing item would you recommend?", "Suggest an outfit for me","recommendation"],
+            "responses": [
+                "For a versatile and stylish look, I recommend trying our elegant jackets paired with trendy jeans. If you're into a more classic style, our suits are a great choice. Explore our collection to find the perfect outfit for any occasion!"
+            ]
+        },
+        {
+            "tag": "care_instructions",
+            "patterns": ["How should I care for my clothing items?", "Give me some tips on maintaining my outfits","care_instructions"],
+            "responses": [
+                "To keep your clothing in top condition, always follow the care instructions on the label. Generally, wash similar colors together, avoid high heat, and consider dry cleaning for delicate items. Check our website for detailed care tips for each clothing category."
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?",
+                "How is the payement done?",
+                "payments"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard, and Paypal",
+                "We accept most major credit cards and Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?",
+                "delivery"
+            ],
+            "responses": [
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days"
+            ]
+        },
+        {
+            "tag": "reviews",
+            "patterns": ["Can you share customer reviews about your clothing?", "What do customers say about your fashion products?"],
+            "responses": [
+                "Our customers have shared fantastic reviews about our clothing line. You can find authentic testimonials on our website to get insights into their experiences with our stylish and quality outfits."
+            ]
+        }
+        
+    ]
+}
