@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Render the base.html template
-    return render_template('base.html')
+    return render_template('index.html')
 
 # Define the route for handling predictions based on user input
 @app.route('/predict', methods=['POST'])
