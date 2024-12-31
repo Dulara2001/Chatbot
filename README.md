@@ -2,6 +2,13 @@
 
 #### Watch Demo: https://drive.google.com/file/d/14qaZ3sS6U-xaZ-5iis7STCN8hjSTCWh1/view?usp=sharing
 
+This project focuses on developing an intelligent and interactive chatbot to enhance online customer support for an e-commerce platform. The chatbot is designed to handle a wide range of customer inquiries, including:
+- Product Recommendations: Suggesting products based on customer preferences.
+- Order Tracking: Providing real-time updates on order status.
+- General Queries: Answering common questions about products and services.
+
+The chatbot leverages natural language processing (NLP) to understand user input and deliver accurate, context-aware responses, improving the overall shopping experience for customers.
+
 This project demonstrates the development of a chatbot using deep learning techniques, specifically focusing on a feed-forward neural network implemented with PyTorch. Below is an overview of the key steps and methodologies followed in this project:
 
 ---
